@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Lobster|Roboto+Condensed&subset=latin,cyrillic);
+
+html, body{
+  background-color:#ddd;
+  font-family:helvetica;
+  font-size:16px;
+}
+.{
+  box-sizing:boder-box;
+}
+
+.slogan{
+  font-size:2.5em;
+  color:#fff;
+  background-color:#7f8c8d;
+  width:1024px;
+  margin:0em auto;
+  padding:20px;
+  margin-top:2em;
+  font-family: 'Lobster', cursive;
+  text-align:center;
+}
+
+.container{
+  width:1024px;
+  margin:3em auto;
+  margin-top:0;
+  border:1px solid #dedede;
+  padding:20px;
+  background-color:#fff;
+}
+
+.sign-up, .sign-in{
+  width:47.5%;
+  display:inline-block;
+  vertical-align:top;
+  padding:10px;
+}
+
+.sign-up  h1, .sign-in h1{
+  font-size:2em;
+  font-weight:bold;
+  color:#888;
+  padding-bottom:0.5em;
+  border-bottom:1px solid #f5f5f5;
+  font-family:verdana;
+}
+
+#sup label, #sin label, #sup button, #sin button{
+  display:block;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sign-up p, .sign-in p{
+  font-size:0.8em;
+  margin-top:-1em;
+  margin-bottom:2.5em;
+  padding:0;
+}
+#sup label, #sin label{
+  font-size:12px;
+  font-weight:400;
+  text-transform:uppercase;
+}
+
+#sup input, #sin input{
+  margin-bottom:0.8em;
+  width:250px;
+  height:1.4em;
+  line-height:2em;
+  padding:0.5em;
+  font-size:17px;
+  border: 1px solid #ddd;
+}
+.btn{
+  background-color:#16a085;
+  color:#fff;
+  font-size:0.95em;
+  font-weight:bold;
+  border:0;
+  padding:0.8em 1em;
+  cursor:pointer;
+  border-bottom:4px solid #2ecc71;
+}
+
+.btn:hover{
+  background-color:#2ecc71;
+  border-bottom:4px solid #2ecc71;
+  transition:250ms;
+  border-radius:4px 0 4px 0;
+}
+
+/*Error style*/
+.error-line{
+  color:red;
+}
